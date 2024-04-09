@@ -1,0 +1,41 @@
+<svg width="43" height="51" viewBox="0 0 43 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="AP Logo 1" clip-path="url(#clip0_1738_1918)">
+<g id="Header-&#38;-Footers">
+<g id="Footers">
+<g id="Group-4">
+<g id="logo/ap-copy-3">
+<g id="Group-4_2">
+<g id="Mask group">
+<mask id="mask0_1738_1918" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="43" height="51">
+<g id="Group">
+<path id="Vector" d="M0 0.78418H43V50.7842H0V0.78418Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_1738_1918)">
+<path id="Fill-1" fill-rule="evenodd" clip-rule="evenodd" d="M0.000488281 45.5716H43.0001V0.78418H0.000488281V45.5716Z" fill="white"/>
+</g>
+</g>
+<g id="Mask group_2">
+<mask id="mask1_1738_1918" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="43" height="51">
+<g id="Group_2">
+<path id="Vector_2" d="M0 0.78418H43V50.7842H0V0.78418Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_1738_1918)">
+<path id="Fill-3" fill-rule="evenodd" clip-rule="evenodd" d="M0 45.5715H43V50.7925H0.000414791L0 45.5715Z" fill="#FF322E"/>
+</g>
+</g>
+</g>
+<path id="Fill-5" fill-rule="evenodd" clip-rule="evenodd" d="M9.89744 12.5698L2.66943 34.3516H7.90271L12.8122 18.9555L15.2729 26.6527H12.0898L10.8186 31.0466H16.6775L17.734 34.3516H23.1168L15.8897 12.5698H9.89744Z" fill="black"/>
+<path id="Fill-6" fill-rule="evenodd" clip-rule="evenodd" d="M31.3407 12.5698H23.8271V34.3516H29.0231V16.9639H31.1168C33.5463 16.9639 34.9294 18.1278 34.9294 20.2309C34.9294 22.2965 33.5463 23.4983 31.1168 23.4983H30.7804V27.8922H31.3407C36.9478 27.8922 40.2374 25.0566 40.2374 20.2309C40.2374 15.3113 36.9478 12.5698 31.3407 12.5698Z" fill="black"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1738_1918">
+<rect width="43" height="50" fill="white" transform="translate(0 0.78418)"/>
+</clipPath>
+</defs>
+</svg>

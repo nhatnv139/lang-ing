@@ -1,0 +1,186 @@
+@import './variable.scss';
+.ant-btn {
+  border-radius: 61.364px !important;
+  height: $height-input !important;
+  transition: all 1s;
+
+  &:hover{
+    box-shadow: 0px 0px 30px 0px $primary-color, 0px 0px 8px 2px $primary-color inset !important;
+    text-shadow: unset !important;
+  }
+
+  &-primary {
+    color: $primary-color !important;
+    border-color: $primary-color !important;
+    border: 3px solid !important;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 20px 0px $primary-color, 0px 0px 8px 2px $primary-color inset !important;
+    text-shadow: $primary-color 2px 0 8px !important;
+    font-weight: 600 !important;
+  }
+
+  &-primary-rectange {
+    color: $primary-color !important;
+    border-radius: 8px !important;
+    border-color: $primary-color !important;
+    border: 2px solid !important;
+    height: 60px !important;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 20px 0px $primary-color, 0px 0px 15px 2px $primary-color inset !important;
+    text-shadow: $primary-color 2px 0 8px !important;
+    font-weight: 600 !important;
+  }
+
+  &-primary-green {
+    color: white !important;
+    border-radius: 8px !important;
+    border-color: $primary-color !important;
+    height: 60px !important;
+    background-color: $primary-color !important;
+    text-shadow: $primary-color 2px 0 8px !important;
+    font-weight: 600 !important;
+  }
+
+  &-secondary {
+    color: white !important;
+    border-color: $neutral-200 !important;
+    background-color: transparent !important;
+  }
+
+}
+
+.ant-input {
+  border-radius: 8px !important;
+  border: 1px solid #2B937A !important;
+  background: transparent !important;
+  outline: none !important;
+  min-height: 60px !important;
+  color: white !important;
+  padding-right: 30px;
+  padding-left: 30px !important;
+
+  &:focus {
+    box-shadow: unset !important;
+  }
+
+  &::placeholder {
+    color: #9E8E85 !important;
+    font-size: 16px;
+  }
+}
+
+
+.country-search {
+  .ant-select-selector {
+    .ant-select-selection-item {
+      color: $neutral-200;
+    }
+  }
+  .ant-select-arrow {
+    margin-top: -10px;
+  }
+  .ant-select-selection-search {
+    input {
+      color: white;
+    }
+  }
+}
+.contact_us_body {
+  .ant-form-item-has-error .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input) .ant-select-selector  {
+    outline: unset !important;
+    border-color: transparent !important;
+  }
+
+}
+
+.modal-coming-soon {
+  z-index: 100000000000 !important;
+  .ant-modal-footer {
+    display: none;
+  }
+
+  //.ant-modal-header {
+  //  display: none;
+  //}
+
+  .ant-modal-close {
+    display: none;
+  }
+
+  .ant-modal-content {
+    background-color: transparent !important;
+    box-shadow: none;
+  }
+}
+
+.ant-dropdown {
+  z-index: 10000000001 !important;
+}
+
+
+.ant-pagination {
+  .ant-pagination-item {
+    border: unset !important;
+    background-color: transparent !important;
+  }
+  .ant-pagination-item-active {
+    a {
+      color: $primary-color  !important;
+    }
+  }
+  .ant-pagination-item-link {
+    display: flex !important;
+    border: unset !important;
+    background-color: transparent !important;
+    .anticon {
+      margin: auto;
+      color: $primary-color  !important;
+    }
+  }
+}
+
+
+
+.ant-table-custom {
+  &:deep(.table-striped) td {
+    background-color: #fafafa !important;
+  }
+
+  &:deep(.table-striped) td {
+    background-color: rgb(29, 29, 29) !important;
+  }
+}
+
+
+.dialog-preview-image-custom {
+  .ant-modal-header, .ant-modal-footer {
+    display: none !important;
+  }
+
+  .ant-modal{
+    width: 83% !important;
+
+    .ant-modal-content {
+      background-color: transparent !important;
+    }
+  }
+
+  .ant-modal-close {
+    display: none !important;
+  }
+}
+
+.drawer-menu-white-paper {
+  .ant-drawer-close {
+    font-size: 24px;
+    color: white !important;
+  }
+
+  .ant-drawer-header {
+    background: #0c0f11;
+  }
+  .ant-drawer-content {
+    background: #0c0f11 !important;
+    overflow: hidden;
+  }
+}

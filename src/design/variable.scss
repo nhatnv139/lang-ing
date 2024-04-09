@@ -1,0 +1,32 @@
+// color-variable
+
+$primary-color: #2B937A;
+$neutral-200: rgba(205, 214, 212, 1);
+$neutral-400: rgba(154, 167, 164, 1);
+$gray-1: rgba(255, 255, 255, 0.2);
+$emphasis: rgba(148, 255, 223, 1);
+$gray-2: rgba(19, 29, 32, 1);
+$neutral-0: rgba(255, 255, 255, 1);
+$primary-white: #F0FFFB;
+
+
+//color layout
+$color-header: rgba(12, 15, 17, 0.01);
+$border-color: $neutral-200;
+$back-ground-header: $color-header;
+$back-ground-footer: #0C0F11;
+$background-color-content: #0C0F11;
+
+
+// pixel
+$height-header: 72px;
+$height-menu: 44px;
+$height-footer: 80px;
+$max-wrap-container: 1920px;
+$max-wrap-content: 1200px;
+$max-wrap-content-1: 1534px;
+
+$height-input: 44px;
+
+//pading
+$padding-layout: 48px;

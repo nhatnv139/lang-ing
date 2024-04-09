@@ -1,0 +1,25 @@
+.blur_light_1 {
+  border-radius: 784px;
+  opacity: 0.9;
+  background: #94ffdf;
+  filter: blur(200px);
+}
+
+.blur_light_about_1 {
+  border-radius: 2106px;
+  background: radial-gradient(50% 50.00% at 50% 50.00%, #0A1013 0%, #419D60 0.01%, #1D3C38 54.63%, #0A1013 100%);
+  filter: blur(150px);
+  transform: translate3d(0, 0, 0);
+}
+
+.blur_light_about_2 {
+  border-radius: 1284px;
+  opacity: 0.9;
+  background: radial-gradient(50% 50.00% at 50% 50.00%, #419D92 0.01%, #1D3C38 54.63%, #0A1013 100%);
+  filter: blur(100px);
+  transform: translate3d(0, 0, 0);
+}
+
+.bg-linear-custom-1 {
+  background: linear-gradient(180deg, #0e3b3e 0%, #0d2d2f 33.44%, #0a1313 100%)
+}

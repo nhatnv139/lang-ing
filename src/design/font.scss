@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.text-heading-1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 104px;
+}
+
+.text-heading-1-1 {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 104px;
+}
+
+.text-heading-2 {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+}
+
+.text-heading-2-1 {
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 120%;
+}
+
+.text-heading-3 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 36px;
+}
+
+.text-heading-4 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.text-content-1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: $neutral-400;
+}
+
+.text-content-2 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: $neutral-400;
+}
+
+.text-content-3 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: $neutral-400;
+}
+.text-content-4 {
+  font-weight: 300;
+  font-size: 16px !important;
+  line-height: 24px;
+  color: $neutral-400;
+}
+
+.text-heading-roadmap {
+  font-size: 200px;
+  line-height: 260px;
+  font-weight: 700;
+}
+
+.title-heading-about {
+  font-size: 155px;
+  line-height: 110%;
+  font-weight: 700;
+  @apply laptop:text-[128px] desktop-1:text-[136px] desktop-2:text-[140px];
+}
+
+.title-item-about {
+  font-size: 120px;
+  line-height: 120%;
+  font-weight: 500;
+  @apply laptop:text-[82px] desktop-1:text-[110px] desktop-2:text-[110px];
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .text-heading-1 {
+    font-size: 64px;
+    line-height: 72px;
+    
+  }
+  .text-heading-1-1{
+    font-size: 54px;
+    line-height: 72px;
+  }
+
+  .text-heading-2 {
+    font-size: 54px;
+  }
+
+  .text-heading-2-1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+  .text-heading-3 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .text-content-1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .text-content-2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .text-content-3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .text-content-4 {
+    font-size: 14px !important;
+    line-height: 21px;
+  }
+  .text-heading-roadmap {
+    font-size: 100px;
+    line-height: 260px;
+    font-weight: 700;
+  }
+
+  .title-heading-about {
+    font-size: 120px;
+    line-height: 110%;
+    font-weight: 700;
+  }
+  .title-item-about {
+    font-size: 72px;
+    line-height: 130%;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .text-heading-1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+  }
+  .text-heading-1-1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+  }
+
+  .text-heading-2 {
+    font-weight: 700;
+    font-size: 44px;
+  }
+
+  .text-heading-4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+
+  .text-heading-2-1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+  .text-heading-3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+
+  .text-content-1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .text-content-2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .text-content-3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .text-content-4 {
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 21px;
+  }
+
+  .text-heading-roadmap {
+    font-size: 44px;
+    line-height: 260px;
+    font-weight: 700;
+  }
+
+  .title-heading-about {
+    font-size: 44px;
+    line-height: 130%;
+    font-weight: 600;
+  }
+  .title-item-about {
+    font-size: 44px;
+    line-height: 130%;
+    font-weight: 600;
+  }
+
+}

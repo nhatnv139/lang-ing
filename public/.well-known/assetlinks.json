@@ -1,0 +1,11 @@
+[{
+"relation": ["delegate_permission/common.handle_all_urls"],
+"target": {
+"namespace": "android_app",
+"package_name": "network.athene.app",
+"sha256_cert_fingerprints":
+["CF:7C:ED:A8:86:BD:63:C3:44:0F:BA:8A:D3:72:81:15:D0:C7:E0:16:17:83:B1:BE:A4:15:45:D8:A0:20:F4:02",  "67:6C:9D:0B:7E:DC:E1:7C:7E:FD:F1:33:08:B7:02:96:C3:48:2A:4A:7C:14:C1:E3:0F:80:1B:7B:4D:62:02:53",
+"D1:BF:AD:E9:8F:6F:13:D4:F1:A5:A9:2B:A5:E7:65:09:ED:EE:2F:89:91:D0:FA:77:D1:5C:62:D7:95:C4:B4:D0"
+]
+}
+}]
