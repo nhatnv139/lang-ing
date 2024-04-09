@@ -32,21 +32,25 @@ export default {
 
 <template>
   <div class="w-full">
-    <div class="main_ecosystem">
-      <div class="main_ecosystem_container">
-        <div class="main_ecosystem_item">
-          <img class="main_img_ecosystem_pc" :src="ecosystem" />
-          <img class="main_img_ecosystem_mb" :src="Ecosystem_mb" />
-          <div v-motion-title-section-visible class="max-w-[800px]">
-            <div class="main_ecosystem_item_title">
-              {{ $t('home.eco.title') }}
+    <section>
+      <div class="main_ecosystem">
+        <div class="main_ecosystem_container">
+          <div class="main_ecosystem_item">
+            <img class="main_img_ecosystem_pc" :src="ecosystem" />
+            <img class="main_img_ecosystem_mb" :src="Ecosystem_mb" />
+            <div v-motion-title-section-visible class="max-w-[800px]">
+              <div class="main_ecosystem_item_title">
+                {{ $t('home.eco.title') }}
+              </div>
+              <div class="main_ecosystem_item_sbtitle">{{ $t('home.eco.sub_title') }}</div>
             </div>
-            <div class="main_ecosystem_item_sbtitle">{{ $t('home.eco.sub_title') }}</div>
           </div>
         </div>
       </div>
-    </div>
-    <MainEcosystem></MainEcosystem>
+    </section>
+    <section>
+      <MainEcosystem></MainEcosystem>
+    </section>
   </div>
 </template>
 <style lang="scss">
